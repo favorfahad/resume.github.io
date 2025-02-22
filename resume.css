@@ -1,0 +1,250 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(29, 1, 37);
+        color: azure;
+        font-family: "Raleway", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        font-size: 1.5rem;
+        background-color: rgb(89, 12, 112);
+      }
+      .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0;
+        align-items: center;
+      }
+
+      .first > div {
+        width: 25%;
+      }
+      .leftsect {
+        width: auto;
+        font-size: 2.5rem;
+      }
+      .leftsect .buttons {
+        padding: 30px;
+      }
+      .leftsect .btn {
+        padding: 12px;
+        background: brown;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .color {
+        color: brown;
+      }
+      .color:hover {
+        color: yellow;
+      }
+      .rightsect {
+        width: 80%;
+        img {
+          height: 275px;
+          width: 300px;
+          margin-top: -90px;
+        }
+      }
+      #element {
+        color: brown;
+      }
+      main hr {
+        border: 0;
+        background-color: #381bd8d0;
+        height: 2px;
+        margin: 48px 84px;
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondsection h1 {
+        font-size: 2rem;
+      }
+      .Box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 30px;
+        position: relative;
+        top: -31px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 65px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 75px;
+        color: slategray;
+        width: 150px;
+        font-size: 13px;
+      }
+      .image-top-1 {
+        background-color: antiquewhite;
+        position: relative;
+        width: 50px;
+        top: -31px;
+        left: -9px;
+      }
+      .image-top-2 {
+        position: relative;
+        width: 50px;
+        top: -33px;
+        left: -19px;
+      }
+      .image-top-3 {
+        position: relative;
+        width: 35px;
+        top: -36px;
+        left: -9px;
+        background-color: antiquewhite;
+      }
+      .Thirdsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 90vh;
+      }
+      .Thirdsection h1 {
+        font-size: 2rem;
+      }
+      .box2 {
+        background: white;
+        width: 2px;
+        height: 27vw;
+        margin: -74px 3px;
+        /* display: flex; */
+      }
+      .horizontal {
+        height: 1px;
+        width: 93px;
+        background-color: white;
+        margin: 140px 0px;
+      }
+      .Edu-title {
+        width: 1100px;
+        font-size: 1rem;
+        color: #7b69e2d0;
+        margin: 18px 101px;
+      }
+      .Edu-text {
+        font-size: medium;
+        margin-left: 110px;
+        width: 900px;
+        margin-top: -2px;
+      }
+      .fourthsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 90vh;
+      }
+      .fourthsection h1 {
+        font-size: 2rem;
+      }
+      .fourthsection h2 {
+        margin-top: 27px;
+        color: brown;
+      }
+      .Bar {
+        size: 200px;
+        color: aqua;
+      }
+      progress {
+        accent-color: green;
+        width: 900px;
+      }
+      .fourthsection h3 {
+        margin-top: 12px;
+      }
+      .fourthsection li {
+        margin-top: 8px;
+      }
+
+      .project {
+        max-width: 80vw;
+        margin: auto;
+        height: 120vh;
+      }
+      .project .Listed {
+        margin-top: 35px;
+      }
+      .project ul {
+        margin-top: 9px;
+      }
+      .project h1 {
+        color: brown;
+
+      }
+      .project ol {
+        font-size: medium;
+        color: bisque;
+      }
+       footer {
+        /* height: 175px; */
+        background-color: rgb(27, 27, 102);
+      }
+      .footer {
+        display: flex;
+        padding: 12px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+        width: 223px;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      .footer > h3 {
+        width: 223px;
+      }
+      footer .text-center {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
